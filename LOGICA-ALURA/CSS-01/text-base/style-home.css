@@ -1,0 +1,47 @@
+.imagem01 {
+  width: 100%;
+}
+
+.Principal {
+  background: #cccccc;
+  padding: 30px;
+}
+
+.titulo-principal {
+  padding-left: 20px;
+}
+
+.Titulo-Centralizado {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+
+}
+
+em strong {
+  color: #ff0000;
+}
+
+.itens {
+  font-style: italic;
+}
+
+.beneficios {
+  background: #ffffff;
+  padding: 20px;
+}
+
+ul {
+  display: inline-block;
+  /*a propriedade inline no tamanho do elemento já o block deixa no tamanho da linha */
+  vertical-align: top;
+  width: 20%;
+  margin-right: 15%;
+}
+
+.imgbeneficios {
+  width: 50%;
+
+}

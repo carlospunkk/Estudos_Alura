@@ -1,0 +1,64 @@
+.cabecalhoPrincipal .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cabecalhoPrincipal-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rodapePrincipal-patrocinadores .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.rodapePrincipal-patrocinadores-list {
+  display: flex;
+  justify-content: space-around;
+  /*espaço entre elementos*/
+  align-items: center;
+  /*alinhamento centro*/
+  width: 70%;
+  /*largura com 70%*/
+  margin-right: 5px;
+}
+
+.rodapePrincipal-contatoForm {
+  width: 30%;
+
+}
+
+.rodapePrincipal-contatoForm-fieldset {
+  display: flex;
+}
+
+.rodapePrincipal-navMap-list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 256px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*display: flex;*/
+/*flex-direction: column;
+/*direção em colunas*/
+/*flex-wrap: wrap;
+/*quebra de linhas*/
+/*height: 256px;
+/*altura*/
