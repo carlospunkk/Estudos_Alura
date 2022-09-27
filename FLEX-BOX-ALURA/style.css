@@ -1,0 +1,26 @@
+.container_pai {
+  border: 1px solid black;
+  width: 600px;
+  height: 400px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+
+
+}
+
+.caixas_filho {
+  background-color: #adff2f;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+
+}
+
+
+.eixos {
+  display: flex;
+  justify-content: space-around;
+
+}

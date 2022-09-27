@@ -1,0 +1,83 @@
+.flexContainer:last-child {
+  margin-top: 2em;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  height: 50px;
+  width: 50px;
+}
+
+div:nth-child(1) {
+  background-color: red;
+  width: 80px;
+  height: 80px;
+}
+
+div:nth-child(2) {
+  background-color: blue;
+}
+
+div:nth-child(3) {
+  background-color: green;
+}
+
+div:nth-child(4) {
+  background-color: yellow;
+}
+
+div:nth-child(5) {
+  background-color: pink;
+}
+
+div:nth-child(6) {
+  background-color: black;
+}
+
+div:nth-child(7) {
+  background-color: orange;
+}
+
+div:nth-child(8) {
+  background-color: silver;
+}
+
+
+/*aplicando flex-grow */
+
+/*pai*/
+/*
+.flexContainer {
+   display: flex;
+  /*justify-content: space-between;
+  align-items: center;
+}*/
+
+
+/*filho*/
+/*
+.flexItem {
+  flex-grow: 1;
+}
+*/
+
+
+/* apliacndo flex-shrink */
+
+.flexContainer {
+  display: flex;
+  background-color: black;
+}
+
+.flexItem {}
+
+/*diminuindo o primeiro elemento*/
+.primeiro {}
+
+.flexItem {
+  flex-shrink: 2;
+}
